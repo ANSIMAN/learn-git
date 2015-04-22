@@ -11,5 +11,6 @@ GIt is free software\
 add some new things\
 \
 first Step\
-\
+  \
+add a new action\
 }
