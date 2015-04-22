@@ -7,4 +7,6 @@
 \f0\fs24 \cf0 \'d6\'ee\'c9\'f1\'d6\'ae\'b5\'f9\
   Git is a version control system\
 GIt is free software\
+  \
+add some new things\
 }
