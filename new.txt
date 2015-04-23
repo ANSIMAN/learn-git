@@ -151,6 +151,12 @@ if you create a new function on a new branch but you don’t want it now
 just delete the branch like this
 		$git branch -D feature-vulcan
 
+if you want to look remote repository
+	$git remote or $git remote -v
+
+you can push main branch or other branch by
+	$git push origin master
+	or $git push origin dev 
 
 
 
