@@ -71,7 +71,7 @@ Push our git to remote git:
 	$git remote add origin git@github.com:yourAcountName/learngit.git
 	$git push -u origin master
 
-From now on if you commit on you computer you can push it to github
+From now on if you commit on you computer you can push it to github(push newest changes)
 	$git push origin master
 	
 
