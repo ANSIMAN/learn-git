@@ -110,6 +110,8 @@ Usually when merging branch git use Fast-Forward model and it will delete the br
 
 	$git merge —-no-ff -m”write somethings” dev
 
+if you want to fix a bug bug when you are doing a branch can not commit the current branch
+ you should use “stash” to store the workspace 
 
 
 
