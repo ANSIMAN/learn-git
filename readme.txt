@@ -5,4 +5,4 @@ I search online find a website which is easy for newer to learn git
 
 I will record some useful command which I have learned on it
 
-
+Creating a new branch is quick & simple.
