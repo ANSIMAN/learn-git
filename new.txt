@@ -106,6 +106,8 @@ Sometimes if you can not merge branch you should fix the comflict and add it com
 if you want to see merge picture
 	$git log --graph
 
+Usually when merging branch git use Fast-Forward model and it will delete the branch information .But if we do not use Fast-Forward model Git will create a commit information of merging and we can see the branch history by git log —-graph
+
 
 
 
