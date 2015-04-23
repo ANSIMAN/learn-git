@@ -90,5 +90,8 @@ is equal to
         $git checkout dev
 use git branch to check all the branch
 
+switch to master
+	$git checkout master
+
 
 
