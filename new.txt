@@ -103,6 +103,9 @@ delete the dev branch
 
 Sometimes if you can not merge branch you should fix the comflict and add it commit it then try to merge it again
 
+if you want to see merge picture
+	$git log --graph
+
 
 
 
