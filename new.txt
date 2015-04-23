@@ -48,7 +48,7 @@ check difference between workspace and newest repository
 
 revoke changes didn’t added
  
-	$git checkout —readme.txt
+	$git checkout —- readme.txt
 
 revoke changes added but didn’t commit
 
@@ -158,6 +158,58 @@ you can push main branch or other branch by
 	$git push origin master
 	or $git push origin dev 
 
+if you work with your partner you should let you parter clone your git repository
+
+	$git clone git@github.com:yourname/learngit.git
+
+if your parter have push his change and you just change the same file .it will conflict
+	then you should git pull newest branch then merge in your computer then push it
+	{
+		if git pull warming“no tracking information”，
+		use git branch --set-upstream branch-name origin/branch-name。 to create branch
+	}
+	(optional) $git branch —-set-upstream dev from origin
+	git pull
+	
+	then you solve the comflict and push it to the branch
+
+Add Tag
+	$ git tag v1.0
+
+Check Tag
+
+	$ git tag
+
+Add history Tag
+
+	$ git log — pretty=oneline —abbrev-commit
+	$ git tag v0.9 1247912873
+
+Check tagName
+
+	$ git show <tagname>
+	like git show v0.9
+
+Create tag with Profile
+	$ git tag -a v0.1 -m “version 0.1 released” 3628164
+
+delete tag
+
+	$ git tag -d v0.1
+
+Push tag
+
+	$ git push origin v1.0
+
+Push All Tag
+
+	$ git push origin --tags
+
+Delete tag in remote and local  (first local then remote)
+
+	$ git tag -d v0.9
+	$ git push origin :refs/tags/v0.9
+	To git@github.com:michaelliao/learngit.git
 
 
 
