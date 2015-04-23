@@ -145,7 +145,12 @@ come back to dev
 
 when you have many stash
  	you should 
-		$git stash apply stash@{0}
+		$git stash apply stash@{0} // 0 can be any number
+
+if you create a new function on a new branch but you don’t want it now 
+just delete the branch like this
+		$git branch -D feature-vulcan
+
 
 
 
