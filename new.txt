@@ -98,5 +98,9 @@ merge the dev branch
 
 	$git merge dev
 
+delete the dev branch
+	$git branch -d dev
+
+
 
 
