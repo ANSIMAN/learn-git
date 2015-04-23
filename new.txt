@@ -1,0 +1,77 @@
+Create version lib
+
+create a new file folder
+
+	$mkdir learngit
+	$cd learngit
+	$pwd
+
+initialize this folder to a git repository
+
+	$git init
+
+add file to git
+	
+	$git add readme.txt
+
+commit file to git repository
+
+	$git commit -m ”wrote a readme”
+
+check status or result
+
+	$git status
+
+check difference
+
+	$git diff readme.txt
+
+check history
+
+	$git log
+
+return to last version
+
+	$git reset —-hard HEAD^
+
+return to 12423 version
+ 
+	$git reset —-hard 12423
+
+check commit id 
+
+	$git reflog
+
+check difference between workspace and newest repository
+
+	$git dif HEAD —- readme.txt
+
+revoke changes didn’t added
+ 
+	$git checkout —readme.txt
+
+revoke changes added but didn’t commit
+
+	$git reset HEAD readme.txt
+	$git checkout —-readme.txt
+
+delete file
+
+	$rm readme.txt
+
+delete file on git
+
+	$git rm readme.txt
+
+Create SSH key
+	$ssh-keygen -t rsa -C “youremail@example.com”
+
+Push our git to remote git:
+
+	$git remote add origin git@github.com:yourAcountName/learngit.git
+	$git push -u origin master
+
+From now on if you commit on you computer you can push it to github
+	$git push origin master
+	
+
