@@ -74,4 +74,21 @@ Push our git to remote git:
 From now on if you commit on you computer you can push it to github(push newest changes)
 	$git push origin master
 	
+Clone a git from gitskill.git
+
+	$git clone git@github.com:yourname/gitskill.git
+
+then you can see the git things by
+
+	$cd gitskill
+	$ls
+create a branch name after dev
+	$git checkout -b dev
+
+is equal to 
+	$git branch dev
+        $git checkout dev
+use git branch to check all the branch
+
+
 
