@@ -111,7 +111,43 @@ Usually when merging branch git use Fast-Forward model and it will delete the br
 	$git merge —-no-ff -m”write somethings” dev
 
 if you want to fix a bug bug when you are doing a branch can not commit the current branch
- you should use “stash” to store the workspace 
+ you should use “stash” to store the workspace .after you fix the bug you can comeback
+
+	$git stash
+	$git checkout master
+	$git checkout -b issue-101
+	
+then i fix it
+	
+	$git add readme.txt
+	$git commit -m”fix bug 101”
+	
+merge the fixed things and delete 101
+	
+	$git checkout master
+	$git merge —-no-ff -m”merge bug fix 101” issue-101
+	$git branch -d issue-101
+
+come back to dev
+
+	$git checkout dev
+		//check status(git status)//
+		//check stash(	$git stash list)
+ 	do
+	{
+		$git stash apply    //do not delete stash
+      (optional)$git stash drop		//delete stash
+	}
+	or
+	{
+		$git stash pop	//auto delete stash
+	}
+
+when you have many stash
+ 	you should 
+		$git stash apply stash@{0}
+
+
 
 
 
